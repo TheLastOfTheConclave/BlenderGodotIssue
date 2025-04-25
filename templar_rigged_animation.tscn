@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://cirbo610amq5j"]
+
+[ext_resource type="PackedScene" uid="uid://c0cmm8lakvp0s" path="res://TemplarRiggedAnimation.glb" id="1_4saga"]
+
+[node name="TemplarRiggedAnimation" instance=ExtResource("1_4saga")]
+
+[node name="Plane_001" parent="." index="0"]
+skeleton = NodePath("../metarig/GeneralSkeleton")
+
+[node name="GeneralSkeleton" parent="metarig" index="0"]
+bones/42/rotation = Quaternion(-0.231907, -0.349649, 0.890076, -0.178126)
+bones/64/rotation = Quaternion(0.687359, -0.481805, -0.374503, -0.39389)
+bones/77/rotation = Quaternion(0.687359, 0.481805, 0.374503, -0.39389)
+bones/81/rotation = Quaternion(0.329606, 0.764042, 0.248166, -0.495998)
+bones/88/rotation = Quaternion(0.78853, -0.481917, 0.381617, -0.0185516)
+bones/89/rotation = Quaternion(-0.208671, 0.813141, -0.540007, -0.0604305)
+bones/92/rotation = Quaternion(0.78853, 0.481917, -0.381617, -0.0185515)
+bones/100/rotation = Quaternion(0.15834, 0.420273, 0.601985, 0.660237)
+bones/108/scale = Vector3(1.00005, 0.999997, 0.999948)
+bones/109/scale = Vector3(1.00003, 0.999984, 0.999987)
+bones/122/rotation = Quaternion(-5.33851e-08, 0.707107, 0.707107, -5.33851e-08)
+bones/132/scale = Vector3(1.00005, 0.999997, 0.999948)
+bones/133/scale = Vector3(1.00003, 0.999984, 0.999987)
+bones/146/rotation = Quaternion(-5.33851e-08, 0.707107, 0.707107, -5.33851e-08)
+bones/151/rotation = Quaternion(1.00486e-14, 1, 0, 3.31603e-13)
+bones/158/rotation = Quaternion(-2.05785e-07, 1.61249e-08, -0.707106, 0.707107)
